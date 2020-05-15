@@ -28,6 +28,7 @@ window.addEventListener('load', () => {
     </div>`
   }
 
+  // Lembrar que getElementsByClassName, gera uma array. Para acessar cada card e alterar o css, deve-se rodar um loop acessando cada card:
   let card = document.getElementsByClassName('card');
   for (let i = 0; i < card.length; i++) {
     card[i].style.backgroundColor = randomColor();
