@@ -6,11 +6,12 @@ window.addEventListener('load', () =>{
   for(let i = 0; i < ficha.length; i++) {
     container.innerHTML += 
     `<div class="card">
-      <img>
+      <img src="${ficha[i].download_url}">
       <div class="card-description">
         <ul>
-          <li></li>
-          <li></li>
+          <li><b>ID:</b> ${ficha[i].id}</li>
+          <li><b>Nome:</b> ${ficha[i].author}</li>
+          <li><b>URL:</b> ${ficha[i].url}</li>
         <ul>
       </div>
     </div>`
