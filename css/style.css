@@ -14,3 +14,31 @@ h1 {
   margin: 20px;
   color: #525252;
 }
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img{
+  max-width: 320px;
+  border-radius: 10px 10px 0 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.card {
+  margin: 20px;
+  max-width: 320px; 
+  box-sizing: 10px;
+  padding: 4px;
+}
+
+.card-description{
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+}
