@@ -8,3 +8,9 @@
 html {
   background-color: #fafafa;
 }
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: #525252;
+}
