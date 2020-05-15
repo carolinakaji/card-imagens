@@ -1,0 +1,10 @@
+@charset 'utf-8';
+/* Uso de flexbox para a página ficar responsiva*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #fafafa;
+}
